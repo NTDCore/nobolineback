@@ -1,5 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/CustomModules/6872274481.lua"))()
-if shared.nobolineupdate then
+if shared.noboline then
 	task.spawn(function()
 		repeat
 			task.wait()
