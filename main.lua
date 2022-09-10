@@ -1866,10 +1866,6 @@ else
 			loadstring(publicrepo)()
 		end
 	end
-	if shared.noboline then
-		loadstring(scriptget("CustomModules/"..game.PlaceId..".lua"))()
-	end
-end
 	if shared.VapePrivate then
 		if pcall(function() readfile("vapeprivate/CustomModules/"..game.PlaceId..".lua") end) then
 			loadstring(readfile("vapeprivate/CustomModules/"..game.PlaceId..".lua"))()
